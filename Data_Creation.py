@@ -16,4 +16,4 @@ df_raw = pd.DataFrame(data)
 df_raw.loc[::50, 'Unit_Price'] = np.nan 
 
 df_raw.to_csv('retail_data.csv', index=False)
-print("✅ Proper dataset 'retail_data.csv' created!")
+print("Proper dataset 'retail_data.csv' created!")

@@ -5,7 +5,7 @@ from src.visualizer import generate_dashboard
 DATA_PATH = 'retail_data.csv'
 
 def start_analysis():
-    print("🚀 Starting Retail Analytics Tool...")
+    print(" Starting Retail Analytics Tool...")
     
     # 2. Load and Clean
     cleaned_df = load_and_clean_data(DATA_PATH)

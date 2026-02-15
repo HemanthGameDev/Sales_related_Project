@@ -14,16 +14,16 @@ def generate_dashboard(df):
 
     # Plot 1: Monthly Trends (Line Chart)
     monthly_trend.plot(kind='line', marker='o', ax=ax1, color='green', linewidth=2)
-    ax1.set_title('📈 Revenue Trend by Month', fontsize=14)
+    ax1.set_title('Revenue Trend by Month', fontsize=14)
     ax1.set_ylabel('Revenue (INR)')
     ax1.grid(True, linestyle='--', alpha=0.6)
     
     # Plot 2: Product Popularity (Bar Chart)
     top_products.plot(kind='bar', ax=ax2, color='orange', edgecolor='black')
-    ax2.set_title('📦 Units Sold per Product', fontsize=14)
+    ax2.set_title(' Units Sold per Product', fontsize=14)
     ax2.set_ylabel('Quantity Sold')
 
     plt.tight_layout()
     plt.show()
     
-    print("✅ Dashboard generated successfully!")
+    print(" Dashboard generated successfully!")
